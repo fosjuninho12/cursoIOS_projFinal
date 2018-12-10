@@ -54,14 +54,38 @@
 		590DFCBF21BEA1F800E8FD3A /* appSuggest */ = {
 			isa = PBXGroup;
 			children = (
+				590DFCD521BEA2DB00E8FD3A /* Model */,
+				590DFCD421BEA2CA00E8FD3A /* Controller */,
+				590DFCD321BEA2A400E8FD3A /* View */,
 				590DFCC021BEA1F800E8FD3A /* AppDelegate.swift */,
-				590DFCC221BEA1F800E8FD3A /* ViewController.swift */,
-				590DFCC421BEA1F800E8FD3A /* Main.storyboard */,
 				590DFCC721BEA1F800E8FD3A /* Assets.xcassets */,
-				590DFCC921BEA1F800E8FD3A /* LaunchScreen.storyboard */,
 				590DFCCC21BEA1F800E8FD3A /* Info.plist */,
 			);
 			path = appSuggest;
+			sourceTree = "<group>";
+		};
+		590DFCD321BEA2A400E8FD3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				590DFCC421BEA1F800E8FD3A /* Main.storyboard */,
+				590DFCC921BEA1F800E8FD3A /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		590DFCD421BEA2CA00E8FD3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				590DFCC221BEA1F800E8FD3A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		590DFCD521BEA2DB00E8FD3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
